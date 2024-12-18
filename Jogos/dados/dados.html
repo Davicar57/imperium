@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobo's Imperium</title>
+    <link rel="stylesheet" href="dados.css">
+    <script src="dados.js"></script>
+    
+</head>
+<body>
+    <fieldset id="barra_principal">
+        <img src="..\..\Imagens\logo.png">
+        <div id="nome">Lobo's Imperium</div>
+        <div id="dinheiro">R$00,0</div>
+        <form action="..\..\Pagina.html">
+        <button id="depositar">DEPOSITAR</button>
+        </form>
+    </fieldset>
+
+    <div id="titulo">DADOS</div>
+
+    <fieldset id="jogos">  
+        <form action="..\..\Jogos\roleta\roleta.html">  
+            <button id="roleta"><img src="..\..\Imagens\roleta.png"></button> 
+        </form>
+            <button id="dados"><img src="..\..\Imagens\dados.png"></button>    
+    </fieldset>
+
+    <div class="jogada" id="P_jogada"><img id="P_jogo" src="lados/lado_um.png"></div>
+    <div class="jogada" id="S_jogada"><img id="S_jogo" src="lados/lado_um.png"></div>
+    <div class="jogada" id="T_jogada"><img id="T_jogo" src="lados/lado_um.png"></div>
+
+    <button id="jogar_dados" onclick="jogar()">JOGAR DADOS</button>
+
+</body>
+</html>

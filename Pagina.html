@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobo's Imperium</title>
+    <link rel="stylesheet" href="Pagina.css">
+    <script src="Pagina.js"></script>
+</head>
+<body>
+    <fieldset id="barra_principal">
+        <img src="Imagens/logo.png" alt="">
+        <div id="nome">Lobo's Imperium</div>
+        <div id="dinheiro">R$00,0</div>
+        <form action="Pagina.html">
+            <button id="depositar">DEPOSITAR</button>
+        </form>
+    </fieldset>
+
+    <div id="titulo">DEPOSITAR</div>
+    <div id="adicionar_txt">ADICIONAR SALDO:R$</div>
+    <input id="adicionar_saldo" placeholder="Adicionar" type="number">
+    <button id="botão_adicionar" onclick="depositar()">depositar</button>
+
+    <fieldset id="jogos">  
+        <form action="Jogos/roleta/roleta.html">  
+            <button id="roleta"><img src="Imagens/roleta.png" alt=""></button> 
+        </form>
+        <form action="Jogos/dados/dados.html">
+            <button id="dados"><img src="Imagens/dados.png" alt=""></button>  
+        </form>  
+    </fieldset>
+
+    <img src="Imagens/pix.png" id="pix">
+    <img src="Imagens/mastercard.png" id="mastercard">
+    <img src="Imagens/visa.png" id="visa">
+
+</body>
+</html>
